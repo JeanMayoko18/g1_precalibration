@@ -1,0 +1,17 @@
+straight_4m:
+  trials:
+  - 48.28913919800016
+  - 49.82242650199987
+  - 47.800214576000144
+  - 46.224912449999465
+  - 50.68913391899969
+  recommended_duration_sec: null
+straight_2m:
+  trials: []
+  recommended_duration_sec: null
+rotate_left_90:
+  trials: []
+  recommended_duration_sec: null
+rotate_right_90:
+  trials: []
+  recommended_duration_sec: null

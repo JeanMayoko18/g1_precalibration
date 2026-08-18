@@ -1,0 +1,39 @@
+robot:
+  command_topic: /cmd_vel
+  publish_rate_hz: 45.0
+  countdown_sec: 3
+  stop_command_count: 30
+  maximum_duration_sec: 120.0
+
+motions:
+  straight_4m:
+    label: Straight 4 m
+    linear_x: 0.12
+    angular_z: 0.0
+    target_type: distance
+    target_value: 4.0
+    target_unit: m
+
+  straight_2m:
+    label: Straight 2 m
+    linear_x: 0.12
+    angular_z: 0.0
+    target_type: distance
+    target_value: 2.0
+    target_unit: m
+
+  rotate_left:
+    label: Rotate Left 90 deg
+    linear_x: 0.0
+    angular_z: 0.20
+    target_type: angle
+    target_value: 90.0
+    target_unit: deg
+
+  rotate_right:
+    label: Rotate Right 90 deg
+    linear_x: 0.0
+    angular_z: -0.20
+    target_type: angle
+    target_value: 90.0
+    target_unit: deg

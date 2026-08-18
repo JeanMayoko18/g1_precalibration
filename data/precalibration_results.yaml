@@ -1,0 +1,192 @@
+straight_4m:
+  trials:
+  - id: 1
+    timestamp: '2026-08-02T01:32:02+08:00'
+    duration_sec: 48.37815921399999
+    publication_count: 2177
+    stop_reason: operator
+  - id: 2
+    timestamp: '2026-08-02T01:34:01+08:00'
+    duration_sec: 49.378348856
+    publication_count: 2222
+    stop_reason: operator
+  - id: 3
+    timestamp: '2026-08-02T01:36:18+08:00'
+    duration_sec: 49.95588533599994
+    publication_count: 2248
+    stop_reason: operator
+  - id: 4
+    timestamp: '2026-08-02T01:38:05+08:00'
+    duration_sec: 47.289391218000105
+    publication_count: 2128
+    stop_reason: operator
+  - id: 5
+    timestamp: '2026-08-02T01:39:49+08:00'
+    duration_sec: 49.111428473000046
+    publication_count: 2210
+    stop_reason: operator
+  - id: 6
+    timestamp: '2026-08-02T01:41:27+08:00'
+    duration_sec: 48.75598637600001
+    publication_count: 2194
+    stop_reason: operator
+  validated_duration_sec: 45.51972783674421
+  validations:
+  - timestamp: '2026-08-02T02:22:04+08:00'
+    candidate_duration_sec: 48.93370742450003
+    target_value: 4.0
+    measured_value: 4.3
+    target_unit: m
+    correction_factor: 0.9302325581395349
+    corrected_duration_sec: 45.51972783674421
+    accepted: true
+straight_2m:
+  trials:
+  - id: 1
+    timestamp: '2026-08-02T01:43:04+08:00'
+    duration_sec: 24.31177153999988
+    publication_count: 1094
+    stop_reason: operator
+  - id: 2
+    timestamp: '2026-08-02T01:44:21+08:00'
+    duration_sec: 22.911473345000104
+    publication_count: 1031
+    stop_reason: operator
+  - id: 3
+    timestamp: '2026-08-02T01:45:06+08:00'
+    duration_sec: 22.422625689000142
+    publication_count: 1009
+    stop_reason: operator
+  - id: 4
+    timestamp: '2026-08-02T01:46:39+08:00'
+    duration_sec: 22.55591815899993
+    publication_count: 1015
+    stop_reason: operator
+  - id: 5
+    timestamp: '2026-08-02T01:47:56+08:00'
+    duration_sec: 24.75588770599984
+    publication_count: 1114
+    stop_reason: operator
+  - id: 6
+    timestamp: '2026-08-02T01:48:58+08:00'
+    duration_sec: 23.667054033000113
+    publication_count: 1065
+    stop_reason: operator
+  validated_duration_sec: 23.548294933266035
+  validations:
+  - timestamp: '2026-08-02T02:32:40+08:00'
+    candidate_duration_sec: 23.28926368900011
+    target_value: 2.0
+    measured_value: 2.15
+    target_unit: m
+    correction_factor: 0.9302325581395349
+    corrected_duration_sec: 21.664431338604754
+    accepted: true
+  - timestamp: '2026-08-02T02:36:42+08:00'
+    candidate_duration_sec: 21.664431338604754
+    target_value: 2.0
+    measured_value: 1.84
+    target_unit: m
+    correction_factor: 1.0869565217391304
+    corrected_duration_sec: 23.548294933266035
+    accepted: true
+  - timestamp: '2026-08-02T02:38:22+08:00'
+    candidate_duration_sec: 23.548294933266035
+    target_value: 2.0
+    measured_value: 2.0
+    target_unit: m
+    correction_factor: 1.0
+    corrected_duration_sec: 23.548294933266035
+    accepted: true
+rotate_left:
+  trials:
+  - id: 1
+    timestamp: '2026-08-02T01:50:04+08:00'
+    duration_sec: 10.778103666000106
+    publication_count: 485
+    stop_reason: operator
+  - id: 2
+    timestamp: '2026-08-02T01:50:55+08:00'
+    duration_sec: 12.155882905999988
+    publication_count: 547
+    stop_reason: operator
+  - id: 3
+    timestamp: '2026-08-02T01:51:29+08:00'
+    duration_sec: 11.178443579000032
+    publication_count: 503
+    stop_reason: operator
+  - id: 4
+    timestamp: '2026-08-02T01:52:06+08:00'
+    duration_sec: 11.667014563000066
+    publication_count: 525
+    stop_reason: operator
+  - id: 5
+    timestamp: '2026-08-02T01:53:04+08:00'
+    duration_sec: 11.333686127999954
+    publication_count: 510
+    stop_reason: operator
+  - id: 6
+    timestamp: '2026-08-02T01:54:01+08:00'
+    duration_sec: 13.067030405999958
+    publication_count: 588
+    stop_reason: operator
+  validated_duration_sec: 11.761721944261375
+  validations:
+  - timestamp: '2026-08-02T02:40:40+08:00'
+    candidate_duration_sec: 11.50035034550001
+    target_value: 90.0
+    measured_value: 88.0
+    target_unit: deg
+    correction_factor: 1.0227272727272727
+    corrected_duration_sec: 11.761721944261375
+    accepted: true
+  - timestamp: '2026-08-02T02:41:24+08:00'
+    candidate_duration_sec: 11.761721944261375
+    target_value: 90.0
+    measured_value: 90.0
+    target_unit: deg
+    correction_factor: 1.0
+    corrected_duration_sec: 11.761721944261375
+    accepted: true
+rotate_right:
+  trials:
+  - id: 1
+    timestamp: '2026-08-02T01:55:03+08:00'
+    duration_sec: 11.733698746999835
+    publication_count: 528
+    stop_reason: operator
+  - id: 2
+    timestamp: '2026-08-02T01:56:14+08:00'
+    duration_sec: 10.02254883400019
+    publication_count: 451
+    stop_reason: operator
+  - id: 3
+    timestamp: '2026-08-02T01:57:05+08:00'
+    duration_sec: 10.533614312000054
+    publication_count: 474
+    stop_reason: operator
+  - id: 4
+    timestamp: '2026-08-02T01:57:43+08:00'
+    duration_sec: 10.533665450000171
+    publication_count: 474
+    stop_reason: operator
+  - id: 5
+    timestamp: '2026-08-02T01:58:38+08:00'
+    duration_sec: 10.689605845000187
+    publication_count: 481
+    stop_reason: operator
+  - id: 6
+    timestamp: '2026-08-02T01:59:15+08:00'
+    duration_sec: 11.133681429999797
+    publication_count: 501
+    stop_reason: operator
+  validated_duration_sec: 10.61163564750018
+  validations:
+  - timestamp: '2026-08-02T02:42:26+08:00'
+    candidate_duration_sec: 10.61163564750018
+    target_value: 90.0
+    measured_value: 90.0
+    target_unit: deg
+    correction_factor: 1.0
+    corrected_duration_sec: 10.61163564750018
+    accepted: true
